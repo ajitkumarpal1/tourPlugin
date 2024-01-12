@@ -2,7 +2,7 @@
 ## Introduction
 The Tour plugin is a JavaScript plugin that provides a guided tour experience for users on a website or web application. It allows you to highlight specific elements on the page and display tooltips with relevant information or instructions.
 
-( ### Note :- import https://ajitkumarpal1.github.io/tourPlugin/tour.js in your project )
+#### (  Note :- import https://ajitkumarpal1.github.io/tourPlugin/tour.js in your project )
 
 # Installation
 To use the Tour plugin, you need to include the required JavaScript and CSS files in your HTML document. You can include them using CDN (Content Delivery Network) links or by downloading the files and hosting them locally.
