@@ -8,7 +8,7 @@ The Tour plugin is a JavaScript plugin that provides a guided tour experience fo
 To use the Tour plugin, you need to include the required JavaScript and CSS files in your HTML document. You can include them using CDN (Content Delivery Network) links or by downloading the files and hosting them locally.
 Here's an example of how to include the required files using CDN links:
 htmlCopy code
-<!DOCTYPE html> <html> <head> <meta charset="UTF-8"> <title>Tour Plugin Example</title> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"> <script src="https://code.jquery.com/jquery-3.6.4.js"></script> <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script> <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script> <script src="tour.js"></script> </head> <body> <!-- Your HTML content here --> </body> </html> 
+<!DOCTYPE html> <html> <head> <meta charset="UTF-8"> <title>Tour Plugin Example</title> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"> <script src="https://code.jquery.com/jquery-3.6.4.js"></script> <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script> <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script> <script src="https://ajitkumarpal1.github.io/tourPlugin/tour.js"></script> </head> <body> <!-- Your HTML content here --> </body> </html> 
 
 # Usage
 To initialize the Tour plugin and create a guided tour, you need to call the formvalue function on a jQuery object.
