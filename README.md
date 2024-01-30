@@ -14,7 +14,7 @@ htmlCopy code
 To initialize the Tour plugin and create a guided tour, you need to call the formvalue function on a jQuery object.
 Here's an example of how to use the Tour plugin:
 javascriptCopy code
-$(document).ready(function() { $().formvalue({ sequence: [ { element: "#element1", title: "Step 1", content: { text: "This is the first step of the tour.", btn_next: true, btn_previous: true, } }, { element: "#element2", title: "Step 2", content: { text: "This is the second step of the tour.", btn_next: true, btn_previous: true, } }, // Add more steps as needed ] }); }); 
+### `$(document).ready(function() { $().formvalue({ sequence: [ { element: "#element1", title: "Step 1", content: { text: "This is the first step of the tour.", btn_next: true, btn_previous: true, } }, { element: "#element2", title: "Step 2", content: { text: "This is the second step of the tour.", btn_next: true, btn_previous: true, } }, // Add more steps as needed ] }); });`
 In the above example, we pass an object with a sequence property to the formvalue function. The sequence property is an array of steps in the tour. Each step is defined as an object with the following properties:
 •	element: The CSS selector of the element to highlight and display the tooltip.
 •	title: The title of the step.
